@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6872313861200473783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3578070179104630155}
+  - component: {fileID: 8314081811327772886}
+  m_Layer: 0
+  m_Name: SimpleFlyCamera
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3578070179104630155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872313861200473783}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8314081811327772886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872313861200473783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f3e812db1e3974c9960a9cb0be3f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 0}
+  _transform: {fileID: 0}
+  _isLerpingEnabled: 1
+  _lerpDuration: 0.5
+  _useQuitFeature: 1
+  _quitKey: 27
+  _enableLogging: 0
+  _showGizmos: 1
+  _selectionDuration: 1
+  _selectionColor: {r: 1, g: 0, b: 0, a: 1}
+  _selectionThickness: 50
+  _speedTextDuration: 1
+  _speedTextColor: {r: 1, g: 1, b: 1, a: 1}
+  _speedTextSize: 60
+  _speedTextPosition: {x: 50, y: 50}
+  _useResetFeature: 1
+  _resetKey: 32
+  _useFocusFeature: 1
+  _selectKey: 323
+  _selectionModifier: 306
+  _focusKey: 102
+  _focusDistance: 3
+  _useFovControl: 1
+  _fovChangeTrigger: 306
+  _fovResetKey: 114
+  _minFov: 1
+  _maxFov: 100
+  _fovChangeStep: 5
+  _useZoomFeature: 1
+  _zoomSpeed: 0.1
+  _useRotationFeature: 1
+  _rotationModifier: 324
+  _rotationAxisModifier: 308
+  _rotationSpeed: {x: -200, y: 200, z: 200}
+  _yawAxisName: Mouse X
+  _pitchAxisName: Mouse Y
+  _rollAxisName: Mouse X
+  _useDragFeature: 1
+  _dragModifier: 325
+  _dragAxisModifier: 308
+  _dragSpeed: {x: -3, y: -3, z: 3}
+  _dragRightAxisName: Mouse X
+  _dragUpAxisName: Mouse Y
+  _dragForwardAxisName: Mouse Y
+  _useMovementFeature: 1
+  _movementModifier: 324
+  _movementSensitivity: {x: 5, y: 3, z: 5}
+  _rightAxisName: Horizontal
+  _forwardAxisName: Vertical
+  _upKey: 101
+  _downKey: 113
+  _useSpeedChangeFeature: 1
+  _speedChangeModifier: 324
+  _currentSpeed: 0.25
+  _minSpeed: 0.01
+  _maxSpeed: 2
+  _speedChangeStep: 0.05
+  _useSpeedShiftFeature: 1
+  _speedUpModifier: 304
+  _speedDownModifier: 306
+  _speedUpMultiplier: 2
+  _speedDownMultiplier: 0.5
