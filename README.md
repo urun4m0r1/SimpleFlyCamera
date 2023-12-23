@@ -2,6 +2,20 @@
 
 A simple fly camera for Unity3D.
 
+## Features
+
+- Play mode quit on escape
+- Object select and focus
+- Camera FOV adjustment
+- Camera zoom
+- Camera rotation
+- Camera drag movement
+- Camera movement
+- Camera speed shift
+- Camera speed adjustment
+- Reset camera position and rotation
+  - Click on the `Reset Camera` button in the inspector component context menu
+
 ## Requirements
 
 - Unity 2022.3.6f1 or higher
